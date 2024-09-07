@@ -1,0 +1,41 @@
+.video-title{
+  font-family: Arial;
+  /* specifies the typeface that should be used for text in an element */
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  /*(height) a given size of text */
+  line-height: 24px;
+  /* space betwwen rows */
+}
+
+.video-stats{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 5px;
+  /* is used to set the amount of space between the top edge of an element and the top edge of its containing element or the element above it */
+}
+
+.apple-text{
+  background-color: rgb( 200, 0 ,0);
+  color: white;
+  border: none;
+  font-family: Arial;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  text-align: center;
+  /* it centers the text within its containing block */
+}
+
+.span-example{
+  color: red;
+  text-decoration: underline;
+  /* is used to specify decorations added to text */
+  /* underline: This value applies an underline to the text. It adds a line beneath the text */
+}
+
+.all-underlined{
+  text-decoration: underline;
+}

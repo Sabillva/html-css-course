@@ -1,0 +1,87 @@
+button{
+  /* style of all elements (buttons) */
+  cursor: pointer;
+  /* changing mouse type */
+}
+
+.subscribe-button{
+  /* style of specific element (button)*/
+  background-color: rgb( 200, 0 ,0);
+  /* inside color of element (button)*/
+  color: white;
+  /* text color */
+  border: none;
+  /* is used to remove any border from an element */
+  transition: opacity 0.15s;
+/* to define the timing and type of changes that should occur when CSS property values change */
+  border-radius: 2px;
+  /* creating rounded corners for elements (buttons)*/
+  margin-right: 8px;
+  /* it is a outside space between next */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  /* it is the space between an element's content and its border */
+  vertical-align: top;
+  /* Aligns the top of the element with the top of the line box or the top of the parent container */
+}
+.subscribe-button:hover{
+  /* The :hover pseudo-class in CSS is used to apply styles to an element when a user places their cursor over it */
+  opacity: 0.8;
+}
+.subscribe-button:active{
+  /* The :active pseudo-class in CSS is used to apply styles to an element at the moment it is being activated by the user, typically when the element is clicked or tapped */
+  opacity: 0.5;
+}
+
+.join-button{
+  background-color: white;
+  border-color: rgb( 41, 18 ,211);
+  /* is used to specify the color of an element's border. */
+  border-style: solid;
+  /* specifies the style of the border around an element */
+  /* solid: A continuous, solid line with no interruptions */
+  border-width: 1px;
+  /* specifies the thickness of the border around an element */
+  color: rgb(41, 18, 211);
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+  /* background-color and color properties should be smoothly animated over a duration of 0.15 seconds each */
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+}
+.join-button:hover{
+background-color: rgb(41, 18, 211);
+color: white;
+}
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button{
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  /* is used to specify the thickness or boldness of the text within an element */
+  font-size: 15px;
+  /* is used to specify the size of the font for text within an element */
+  margin-left: 8px;
+  /* it is a outside space between prev */
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  /* The box-shadow property in CSS is used to add shadow effects around an element's frame */
+  /* box-shadow: [horizontal-offset] [vertical-offset] [blur-radius] [spread-radius] [color]; */
+}
